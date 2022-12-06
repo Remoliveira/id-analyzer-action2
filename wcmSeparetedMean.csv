@@ -1,0 +1,35 @@
+nome_projeto,nome_identificador,nome_classe,posicao_identificador,score
+projeto, WINDOW_WIDTH ,Calculator,Atributo,1.5
+projeto, WINDOW_HEIGHT ,Calculator,Atributo,0.5
+projeto, BUTTON_WIDTH ,Calculator,Atributo,2.0
+projeto, BUTTON_HEIGHT ,Calculator,Atributo,1.0
+projeto, MARGIN_X ,Calculator,Atributo,3.0
+projeto, MARGIN_Y ,Calculator,Atributo,1.0
+projeto, window,Calculator,Atributo,0.0
+projeto, comboCalcType,Calculator,Atributo,0.67
+projeto, inText,Calculator,Atributo,2.5
+projeto, btnC,Calculator,Atributo,0.5
+projeto, opt ,Calculator,Atributo,2.0
+projeto, go ,Calculator,Atributo,1.0
+projeto, addWrite ,Calculator,Atributo,1.5
+projeto, val ,Calculator,Atributo,4.0
+projeto, x ,Calculator,Atributo,4.0
+projeto, y ,Calculator,Atributo,0.0
+projeto, str ,Calculator,Atributo,1.0
+projeto, str2 ,Calculator,Atributo,1.0
+projeto, calcTypeSwitchEventConsumer ,Calculator,Atributo,0.2
+projeto, calcTypeSwitchEventConsumer ,Calculator,Atributo,0.2
+projeto, selectedItem ,Calculator,Atributo,3.5
+projeto, themeSwitchEventConsumer ,Calculator,Atributo,4.0
+projeto, themeSwitchEventConsumer ,Calculator,Atributo,4.0
+projeto, themeSwitchEventConsumer ,Calculator,Atributo,4.0
+projeto, themeSwitchEventConsumer ,Calculator,Atributo,4.0
+projeto, selectedTheme ,Calculator,Atributo,4.0
+projeto, combo ,Calculator,Variavel,1.0
+projeto, btn ,Calculator,Variavel,1.0
+projeto, y ,Calculator,Variavel,0.0
+projeto, primaryDarkColor ,Calculator,switch,3.67
+projeto, secondaryDarkColor ,Calculator,switch,3.67
+projeto, calculator,CalculatorTest,Atributo,6.0
+projeto, first ,CalculatorTest,Variavel,5.0
+projeto, second ,CalculatorTest,Variavel,4.0

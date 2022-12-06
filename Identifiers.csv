@@ -1,0 +1,40 @@
+nome,tipo,posicao,arquivo,nomeClasse,nomeMetodo
+ WINDOW_WIDTH ,int,Atributo,master.xml,Calculator,
+ WINDOW_HEIGHT ,int,Atributo,master.xml,Calculator,
+ BUTTON_WIDTH ,int,Atributo,master.xml,Calculator,
+ BUTTON_HEIGHT ,int,Atributo,master.xml,Calculator,
+ MARGIN_X ,int,Atributo,master.xml,Calculator,
+ MARGIN_Y ,int,Atributo,master.xml,Calculator,
+ window,JFrame,Atributo,master.xml,Calculator,
+ comboCalcType,String,Atributo,master.xml,Calculator,
+ inText,JTextField,Atributo,master.xml,Calculator,
+ btnC,JButton,Atributo,master.xml,Calculator,
+ opt ,char,Atributo,master.xml,Calculator,
+ go ,boolean,Atributo,master.xml,Calculator,
+ addWrite ,boolean,Atributo,master.xml,Calculator,
+ val ,double,Atributo,master.xml,Calculator,
+ x ,int,Atributo,master.xml,Calculator,
+ y ,int,Atributo,master.xml,Calculator,
+ str ,String,Atributo,master.xml,Calculator,
+ str2 ,StringBuilder,Atributo,master.xml,Calculator,
+ calcTypeSwitchEventConsumer ,ItemEvent,Atributo,master.xml,Calculator,
+ calcTypeSwitchEventConsumer ,String,Atributo,master.xml,Calculator,
+ selectedItem ,String,Atributo,master.xml,Calculator,
+ themeSwitchEventConsumer ,ItemEvent,Atributo,master.xml,Calculator,
+ themeSwitchEventConsumer ,String,Atributo,master.xml,Calculator,
+ themeSwitchEventConsumer ,Color,Atributo,master.xml,Calculator,
+ themeSwitchEventConsumer ,Color,Atributo,master.xml,Calculator,
+ selectedTheme ,String,Atributo,master.xml,Calculator,
+ combo ,String,Variavel,master.xml,Calculator,"initCombo
+"
+ btn ,JButton,Variavel,master.xml,Calculator,"initBtn
+"
+ y ,double,Variavel,master.xml,Calculator,"calc
+"
+ primaryDarkColor ,Color,switch,master.xml,Calculator,
+ secondaryDarkColor ,Color,switch,master.xml,Calculator,
+ calculator,Calculator,Atributo,master.xml,CalculatorTest,
+ first ,double,Variavel,master.xml,CalculatorTest,"testCalc
+"
+ second ,String,Variavel,master.xml,CalculatorTest,"testCalc
+"

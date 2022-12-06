@@ -1,0 +1,35 @@
+Identificador,Tipo,Categoria,Posicao,Projeto
+ WINDOW_WIDTH ,int,8,Atributo,projeto
+ WINDOW_HEIGHT ,int,8,Atributo,projeto
+ BUTTON_WIDTH ,int,8,Atributo,projeto
+ BUTTON_HEIGHT ,int,8,Atributo,projeto
+ MARGIN_X ,int,8,Atributo,projeto
+ MARGIN_Y ,int,8,Atributo,projeto
+ window,JFrame,10,Atributo,projeto
+ comboCalcType,String,7,Atributo,projeto
+ inText,JTextField,5,Atributo,projeto
+ btnC,JButton,6,Atributo,projeto
+ opt ,char,10,Atributo,projeto
+ go ,boolean,10,Atributo,projeto
+ addWrite ,boolean,6,Atributo,projeto
+ val ,double,10,Atributo,projeto
+ x ,int,10,Atributo,projeto
+ y ,int,10,Atributo,projeto
+ str ,String,10,Atributo,projeto
+ str2 ,StringBuilder,10,Atributo,projeto
+ calcTypeSwitchEventConsumer ,ItemEvent,5,Atributo,projeto
+ calcTypeSwitchEventConsumer ,String,7,Atributo,projeto
+ selectedItem ,String,6,Atributo,projeto
+ themeSwitchEventConsumer ,ItemEvent,5,Atributo,projeto
+ themeSwitchEventConsumer ,String,7,Atributo,projeto
+ themeSwitchEventConsumer ,Color,7,Atributo,projeto
+ themeSwitchEventConsumer ,Color,7,Atributo,projeto
+ selectedTheme ,String,6,Atributo,projeto
+ combo ,String,10,Variavel,projeto
+ btn ,JButton,10,Variavel,projeto
+ y ,double,10,Variavel,projeto
+ primaryDarkColor ,Color,7,switch,projeto
+ secondaryDarkColor ,Color,7,switch,projeto
+ calculator,Calculator,10,Atributo,projeto
+ first ,double,10,Variavel,projeto
+ second ,String,10,Variavel,projeto

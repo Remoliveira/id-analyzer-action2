@@ -1,0 +1,94 @@
+nome_projeto,nome_identificador,posicao,american_soundex,metaphone,NYSIIS,match_rating_approach
+projeto, XPACK_SECURITY_AUTHC_REALMS_AD_EXTERNAL ,Atributo, 212,KSPKSKRT0KRLMSTKSTRNL , XPAC_SACARATY_ATC_RALNS_AD_AXTARNAL,XPCRNL
+projeto, XPACK_SECURITY_AUTHC_REALMS_LDAP_EXTERNAL ,Atributo, 212,KSPKSKRT0KRLMSLTPKSTRNL , XPAC_SACARATY_ATC_RALNS_LDAP_AXTARNAL,XPCRNL
+projeto, PASSWORD ,Atributo, 126,PSWRT , PASWARD,PSWRD
+projeto, ASGARDIAN_INDEX ,Atributo, 263,ASKRTNNTKS , ASGARDAN_ANDAX,SGRNDX
+projeto, PHILANTHROPISTS_INDEX ,Atributo, 145,FLN0RPSTSNTKS , FALANTRAPASTS_ANDAX,PHLNDX
+projeto, SECURITY_INDEX ,Atributo, 226,SKRTNTKS , SACARATY_ANDAX,SCRNDX
+projeto, AD_ROLE_MAPPING ,Atributo, 364,ATRLMPNK , AD_RALA_NAPANG,D_RPNG
+projeto, realmConfig,Atributo, 645,RLMKNFK, RALNCANFAG,RLMNFG
+projeto, roleMappings,Atributo, 645,RLMPNKS, RALANAPANG,RLMNGS
+projeto, fileContent,Atributo, 142,FLKNTNT, FALACANTAD,FLCTNT
+projeto, nativeContent,Atributo, 531,NTFKNTNT, NATAVACANTAD,NTVTNT
+projeto, type,Atributo, 310,TP, TYP,TYP
+projeto, mapGroupsAsRoles,Atributo, 512,MPKRPSSRLS, NAPGRAPSASRAL,MPGRLS
+projeto, loginWithCommonName,Atributo, 425,LJNW0KMNM, LAGANWATCANANAN,LGNMNM
+projeto, roleMappings,Atributo, 645,RLMPNKS, RALANAPANG,RLMNGS
+projeto, settings,Atributo, 235,STNKS, SATANG,STNGS
+projeto, realm ,Variavel, 645,RLM , RALN,RLM
+projeto, builder ,Variavel, 143,BLTR , BALDAR,BLDR
+projeto, builder ,Variavel, 143,BLTR , BALDAR,BLDR
+projeto, content ,Variavel, 253,KNTNT , CANTANT,CNTNT
+projeto, name ,Variavel, 550,NM , NAN,NM
+projeto, builder ,Variavel, 143,BLTR , BALDAR,BLDR
+projeto, response ,Variavel, 621,RSPNS , RASPANS,RSPNS
+projeto, templates ,Variavel, 351,TMPLTS , TANPLAT,TMPLTS
+projeto, content ,Variavel, 253,KNTNT , CANTANT,CNTNT
+projeto, nodeFiles ,Variavel, 531,NTFLS , NADAFAL,NDFLS
+projeto, file ,Variavel, 140,FL , FAL,FL
+projeto, client ,Variavel, 245,KLNT , CLANT,CLNT
+projeto, indexResponse ,Variavel, 532,INTKSRSPNS , ANDAXRASPANS,NDXPNS
+projeto, getResponse ,Variavel, 236,JTRSPNS , GATRASPANS,GTRPNS
+projeto, testnodeCert ,Variavel, 323,TSTNTSRT , TASTNADACART,TSTCRT
+projeto, testnodeClientProfileCert ,Variavel, 323,TSTNTKLNTPRFLSRT , TASTNADACLANTPRAFALACART,TSTCRT
+projeto, activedirCert ,Variavel, 231,AKTFTRSRT , ACTAVADARCART,CTVCRT
+projeto, testclientCert ,Variavel, 323,TSTKLNTSRT , TASTCLANTCART,TSTCRT
+projeto, openldapCert ,Variavel, 154,OPNLTPSRT , APANLDAPCART,PNLCRT
+projeto, samba4Cert ,Variavel, 251,SMBSRT , SANBA4CART,SMBCRT
+projeto, that ,Variavel, 330,0T , TAT,THT
+projeto, result ,Variavel, 624,RSLT , RASALT,RSLT
+projeto, builder ,Variavel, 143,BLTR , BALDAR,BLDR
+projeto, name ,For, 550,NM , NAN,NM
+projeto, builder ,For, 143,BLTR , BALDAR,BLDR
+projeto, response ,For, 621,RSPNS , RASPANS,RSPNS
+projeto, fileContent,Atributo, 142,FLKNTNT, FALACANTAD,FLCTNT
+projeto, nativeContent,Atributo, 531,NTFKNTNT, NATAVACANTAD,NTVTNT
+projeto, that ,Variavel, 330,0T , TAT,THT
+projeto, result ,Variavel, 624,RSLT , RASALT,RSLT
+projeto,nome,posicao,N500,NM,NAN,NM
+projeto, XPACK_SECURITY_AUTHC_REALMS_AD_EXTERNAL ,Atributo, 212,KSPKSKRT0KRLMSTKSTRNL , XPAC_SACARATY_ATC_RALNS_AD_AXTARNAL,XPCRNL
+projeto, XPACK_SECURITY_AUTHC_REALMS_LDAP_EXTERNAL ,Atributo, 212,KSPKSKRT0KRLMSLTPKSTRNL , XPAC_SACARATY_ATC_RALNS_LDAP_AXTARNAL,XPCRNL
+projeto, PASSWORD ,Atributo, 126,PSWRT , PASWARD,PSWRD
+projeto, ASGARDIAN_INDEX ,Atributo, 263,ASKRTNNTKS , ASGARDAN_ANDAX,SGRNDX
+projeto, PHILANTHROPISTS_INDEX ,Atributo, 145,FLN0RPSTSNTKS , FALANTRAPASTS_ANDAX,PHLNDX
+projeto, SECURITY_INDEX ,Atributo, 226,SKRTNTKS , SACARATY_ANDAX,SCRNDX
+projeto, AD_ROLE_MAPPING ,Atributo, 364,ATRLMPNK , AD_RALA_NAPANG,D_RPNG
+projeto, realmConfig,Atributo, 645,RLMKNFK, RALNCANFAG,RLMNFG
+projeto, roleMappings,Atributo, 645,RLMPNKS, RALANAPANG,RLMNGS
+projeto, fileContent,Atributo, 142,FLKNTNT, FALACANTAD,FLCTNT
+projeto, nativeContent,Atributo, 531,NTFKNTNT, NATAVACANTAD,NTVTNT
+projeto, type,Atributo, 310,TP, TYP,TYP
+projeto, mapGroupsAsRoles,Atributo, 512,MPKRPSSRLS, NAPGRAPSASRAL,MPGRLS
+projeto, loginWithCommonName,Atributo, 425,LJNW0KMNM, LAGANWATCANANAN,LGNMNM
+projeto, roleMappings,Atributo, 645,RLMPNKS, RALANAPANG,RLMNGS
+projeto, settings,Atributo, 235,STNKS, SATANG,STNGS
+projeto, realm ,Variavel, 645,RLM , RALN,RLM
+projeto, builder ,Variavel, 143,BLTR , BALDAR,BLDR
+projeto, builder ,Variavel, 143,BLTR , BALDAR,BLDR
+projeto, content ,Variavel, 253,KNTNT , CANTANT,CNTNT
+projeto, name ,Variavel, 550,NM , NAN,NM
+projeto, builder ,Variavel, 143,BLTR , BALDAR,BLDR
+projeto, response ,Variavel, 621,RSPNS , RASPANS,RSPNS
+projeto, templates ,Variavel, 351,TMPLTS , TANPLAT,TMPLTS
+projeto, content ,Variavel, 253,KNTNT , CANTANT,CNTNT
+projeto, nodeFiles ,Variavel, 531,NTFLS , NADAFAL,NDFLS
+projeto, file ,Variavel, 140,FL , FAL,FL
+projeto, client ,Variavel, 245,KLNT , CLANT,CLNT
+projeto, indexResponse ,Variavel, 532,INTKSRSPNS , ANDAXRASPANS,NDXPNS
+projeto, getResponse ,Variavel, 236,JTRSPNS , GATRASPANS,GTRPNS
+projeto, testnodeCert ,Variavel, 323,TSTNTSRT , TASTNADACART,TSTCRT
+projeto, testnodeClientProfileCert ,Variavel, 323,TSTNTKLNTPRFLSRT , TASTNADACLANTPRAFALACART,TSTCRT
+projeto, activedirCert ,Variavel, 231,AKTFTRSRT , ACTAVADARCART,CTVCRT
+projeto, testclientCert ,Variavel, 323,TSTKLNTSRT , TASTCLANTCART,TSTCRT
+projeto, openldapCert ,Variavel, 154,OPNLTPSRT , APANLDAPCART,PNLCRT
+projeto, samba4Cert ,Variavel, 251,SMBSRT , SANBA4CART,SMBCRT
+projeto, that ,Variavel, 330,0T , TAT,THT
+projeto, result ,Variavel, 624,RSLT , RASALT,RSLT
+projeto, builder ,Variavel, 143,BLTR , BALDAR,BLDR
+projeto, name ,For, 550,NM , NAN,NM
+projeto, builder ,For, 143,BLTR , BALDAR,BLDR
+projeto, response ,For, 621,RSPNS , RASPANS,RSPNS
+projeto, fileContent,Atributo, 142,FLKNTNT, FALACANTAD,FLCTNT
+projeto, nativeContent,Atributo, 531,NTFKNTNT, NATAVACANTAD,NTVTNT
+projeto, that ,Variavel, 330,0T , TAT,THT
+projeto, result ,Variavel, 624,RSLT , RASALT,RSLT
