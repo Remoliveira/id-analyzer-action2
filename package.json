@@ -33,7 +33,7 @@
     "csvtojson": "^2.0.10",
     "octokit": "^2.0.10",
     "python-shell": "^3.0.1",
-    "superagent": "^8.0.3"
+    "superagent": "^8.0.8"
   },
   "devDependencies": {
     "@types/node": "^18.11.0",
