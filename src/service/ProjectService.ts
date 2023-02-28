@@ -50,7 +50,7 @@ class ProjectsService {
   private async downloadFiles(projectDto: ProjectsDTO): Promise<any> {
     try {
       const octokit = new Octokit({
-        auth: ''
+        auth: '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'
       })
       const file = await octokit.request(
         `GET /repos/{owner}/{repo}/zipball/{ref}`,
