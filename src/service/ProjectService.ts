@@ -5,6 +5,7 @@
 import {ProjectsDTO} from './dto'
 import {exec} from 'child_process'
 import csv2json from 'csvtojson'
+import 'dotenv/config'
 
 import {Octokit} from '@octokit/rest'
 import * as request from 'superagent'
@@ -26,8 +27,9 @@ class ProjectsService {
     this.algorithmsService = new AlgorithmsService()
 
     const file = await this.downloadFiles(projectDto)
-
+    console.log('file?', file)
     const zipFile = 'master.zip'
+    console.log('file url?', file.url)
     const fileUrl = file.url
 
     await this.writeCsvToMaster(fileUrl, zipFile)
@@ -35,6 +37,8 @@ class ProjectsService {
     await this.convertToSrcml()
 
     await this.extractIdentifiers()
+
+    await this.downloadDependencies()
 
     await this.applyCategory()
     await this.applyPhonetic()
@@ -50,7 +54,7 @@ class ProjectsService {
   private async downloadFiles(projectDto: ProjectsDTO): Promise<any> {
     try {
       const octokit = new Octokit({
-        auth: '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'
+        auth: process.env.GITHUB_TOKEN
       })
       const file = await octokit.request(
         `GET /repos/{owner}/{repo}/zipball/{ref}`,
@@ -60,6 +64,7 @@ class ProjectsService {
           ref: projectDto.branch
         }
       )
+
       return file
     } catch (error) {
       return error
@@ -84,13 +89,19 @@ class ProjectsService {
     })
   }
 
+  private async downloadDependencies() {
+    await this.algorithmsService.downloadDependencies()
+    console.log('dependencias baixadas')
+  }
+
   private async applyCategory() {
+    console.log('Aplicando algoritmo categorias')
     await this.algorithmsService.applyCategoryAlgorithm()
   }
 
-  private async applyWord2vec() {
-    await this.algorithmsService.applyWordEmbeddingAlgorithm()
-  }
+  // private async applyWord2vec() {
+  //   await this.algorithmsService.applyWordEmbeddingAlgorithm()
+  // }
 
   private async applyPhonetic() {
     await this.algorithmsService.applyPhoneticAlgorithm()
@@ -127,7 +138,11 @@ class ProjectsService {
       setTimeout(() => {
         try {
           PythonShell.run('Java.py', undefined, function (err) {
-            if (err) throw err
+            if (err) {
+              throw err
+            } else {
+              console.log('extract indentifiers done')
+            }
           })
         } catch (error) {}
         response()

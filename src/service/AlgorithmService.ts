@@ -4,6 +4,29 @@ import {PythonShell} from 'python-shell'
 import csv2json from 'csvtojson'
 
 class AlgorithmsService {
+  async downloadDependencies(): Promise<void> {
+    var package_name = 'pandas'
+    let options = {
+      args: [package_name]
+    }
+
+    return new Promise(async response => {
+      setTimeout(() => {
+        try {
+          PythonShell.run(
+            'src/algorithms/install_package.py',
+            options,
+            function (error) {
+              if (error) console.log(error)
+            }
+          )
+        } catch (err) {}
+
+        response()
+      }, 2000)
+    })
+  }
+
   async applyCategoryAlgorithm(): Promise<void> {
     return new Promise(async response => {
       setTimeout(() => {

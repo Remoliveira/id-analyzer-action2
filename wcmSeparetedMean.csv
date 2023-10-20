@@ -1,35 +1,59 @@
 nome_projeto,nome_identificador,nome_classe,posicao_identificador,score
-projeto, WINDOW_WIDTH ,Calculator,Atributo,1.5
-projeto, WINDOW_HEIGHT ,Calculator,Atributo,0.5
-projeto, BUTTON_WIDTH ,Calculator,Atributo,2.0
-projeto, BUTTON_HEIGHT ,Calculator,Atributo,1.0
-projeto, MARGIN_X ,Calculator,Atributo,3.0
-projeto, MARGIN_Y ,Calculator,Atributo,1.0
-projeto, window,Calculator,Atributo,0.0
-projeto, comboCalcType,Calculator,Atributo,0.67
-projeto, inText,Calculator,Atributo,2.5
-projeto, btnC,Calculator,Atributo,0.5
-projeto, opt ,Calculator,Atributo,2.0
-projeto, go ,Calculator,Atributo,1.0
-projeto, addWrite ,Calculator,Atributo,1.5
-projeto, val ,Calculator,Atributo,4.0
-projeto, x ,Calculator,Atributo,4.0
-projeto, y ,Calculator,Atributo,0.0
-projeto, str ,Calculator,Atributo,1.0
-projeto, str2 ,Calculator,Atributo,1.0
-projeto, calcTypeSwitchEventConsumer ,Calculator,Atributo,0.2
-projeto, calcTypeSwitchEventConsumer ,Calculator,Atributo,0.2
-projeto, selectedItem ,Calculator,Atributo,3.5
-projeto, themeSwitchEventConsumer ,Calculator,Atributo,4.0
-projeto, themeSwitchEventConsumer ,Calculator,Atributo,4.0
-projeto, themeSwitchEventConsumer ,Calculator,Atributo,4.0
-projeto, themeSwitchEventConsumer ,Calculator,Atributo,4.0
-projeto, selectedTheme ,Calculator,Atributo,4.0
-projeto, combo ,Calculator,Variavel,1.0
-projeto, btn ,Calculator,Variavel,1.0
-projeto, y ,Calculator,Variavel,0.0
-projeto, primaryDarkColor ,Calculator,switch,3.67
-projeto, secondaryDarkColor ,Calculator,switch,3.67
-projeto, calculator,CalculatorTest,Atributo,6.0
-projeto, first ,CalculatorTest,Variavel,5.0
-projeto, second ,CalculatorTest,Variavel,4.0
+projeto, mapper ,ThemeLoader,Variavel,1.0
+projeto, themeList ,ThemeLoader,Variavel,3.0
+projeto, name,Theme,Atributo,1.0
+projeto, applicationBackground,Theme,Atributo,6.5
+projeto, textColor,Theme,Atributo,3.5
+projeto, btnEqualTextColor,Theme,Atributo,0.25
+projeto, operatorBackground,Theme,Atributo,4.5
+projeto, numbersBackground,Theme,Atributo,5.0
+projeto, btnEqualBackground,Theme,Atributo,0.33
+projeto, themes,ThemeList,Atributo,5.0
+projeto, FONT_NAME ,CalculatorUI,Atributo,2.0
+projeto, DOUBLE_OR_NUMBER_REGEX ,CalculatorUI,Atributo,1.5
+projeto, APPLICATION_TITLE ,CalculatorUI,Atributo,4.5
+projeto, WINDOW_WIDTH ,CalculatorUI,Atributo,1.5
+projeto, WINDOW_HEIGHT ,CalculatorUI,Atributo,0.5
+projeto, BUTTON_WIDTH ,CalculatorUI,Atributo,2.0
+projeto, BUTTON_HEIGHT ,CalculatorUI,Atributo,1.0
+projeto, MARGIN_X ,CalculatorUI,Atributo,3.0
+projeto, MARGIN_Y ,CalculatorUI,Atributo,1.0
+projeto, window,CalculatorUI,Atributo,0.0
+projeto, comboCalculatorType,CalculatorUI,Atributo,2.67
+projeto, comboTheme,CalculatorUI,Atributo,1.5
+projeto, inputScreen,CalculatorUI,Atributo,3.0
+projeto, btnC,CalculatorUI,Atributo,0.5
+projeto, btnBack,CalculatorUI,Atributo,0.5
+projeto, btnMod,CalculatorUI,Atributo,0.5
+projeto, btnDiv,CalculatorUI,Atributo,1.0
+projeto, btnMul,CalculatorUI,Atributo,1.0
+projeto, btnSub,CalculatorUI,Atributo,0.5
+projeto, btnAdd,CalculatorUI,Atributo,0.5
+projeto, btn0,CalculatorUI,Atributo,1.0
+projeto, btn1,CalculatorUI,Atributo,1.0
+projeto, btn2,CalculatorUI,Atributo,1.0
+projeto, btn3,CalculatorUI,Atributo,1.0
+projeto, btn4,CalculatorUI,Atributo,1.0
+projeto, btn5,CalculatorUI,Atributo,1.0
+projeto, btn6,CalculatorUI,Atributo,1.0
+projeto, btn7,CalculatorUI,Atributo,1.0
+projeto, btn8,CalculatorUI,Atributo,1.0
+projeto, btn9,CalculatorUI,Atributo,1.0
+projeto, btnPoint,CalculatorUI,Atributo,0.5
+projeto, btnEqual,CalculatorUI,Atributo,0.5
+projeto, btnRoot,CalculatorUI,Atributo,0.5
+projeto, btnPower,CalculatorUI,Atributo,0.5
+projeto, btnLog,CalculatorUI,Atributo,0.5
+projeto, selectedOperator ,CalculatorUI,Atributo,4.5
+projeto, go ,CalculatorUI,Atributo,1.0
+projeto, addToDisplay ,CalculatorUI,Atributo,1.67
+projeto, typedValue ,CalculatorUI,Atributo,2.5
+projeto, columns ,CalculatorUI,Atributo,6.0
+projeto, rows ,CalculatorUI,Atributo,4.0
+projeto, selectedTheme ,CalculatorUI,Variavel,4.0
+projeto, selectedItem ,CalculatorUI,Variavel,3.5
+projeto, str ,CalculatorUI,Variavel,1.0
+projeto, str2 ,CalculatorUI,Variavel,1.0
+projeto, combo ,CalculatorUI,Variavel,1.0
+projeto, btn ,CalculatorUI,Variavel,1.0
+projeto, calculatorUI,CalculatorUITest,Atributo,3.5
