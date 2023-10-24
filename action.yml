@@ -2,10 +2,10 @@ name: 'id-analyzer-action'
 description: 'Analyze the quality of your identifiers'
 author: 'Remo Gresta'
 inputs:
-  repoName:
+  repo:
     required: true
     description: 'name of the repository'
-  onwer:
+  owner:
     required: true
     description: 'owner of the repository'
   branch:
