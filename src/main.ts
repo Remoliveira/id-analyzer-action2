@@ -13,10 +13,11 @@ async function run(): Promise<void> {
     let repo = core.getInput('repoName')
     let owner = core.getInput('owner')
     let branch = core.getInput('branch')
-    repo = 'Calculator'
-    owner = 'HouariZegai'
-    branch = 'master'
+    // repo = 'Calculator'
+    // owner = 'HouariZegai'
+    // branch = 'master'
     await projectService.storeProject({repo, owner, branch})
+    core.setOutput('out', 'it worked lol')
   } catch (error) {
     if (error instanceof Error) core.setFailed(error.message)
   }

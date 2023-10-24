@@ -12,6 +12,9 @@ inputs:
     required: false
     description: 'branch of the repository'
     default: 'master'
+outputs:
+  out:
+    description: 'Test'
 
 runs:
   using: 'node16'

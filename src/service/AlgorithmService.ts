@@ -5,9 +5,10 @@ import csv2json from 'csvtojson'
 
 class AlgorithmsService {
   async downloadDependencies(): Promise<void> {
-    var package_name = 'pandas'
+    var packages = ['pandas', 'gensim.downloader']
+    // var package_name = 'pandas'
     let options = {
-      args: [package_name]
+      args: packages
     }
 
     return new Promise(async response => {
